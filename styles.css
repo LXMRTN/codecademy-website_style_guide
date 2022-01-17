@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Poppins:wght@400;500&family=Source+Code+Pro&display=swap");
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	text-align: center;
+	margin: 2rem 0 1rem;
+	text-decoration: underline;
+	font-size: 3rem;
+}
+
+main {
+	margin: 0 auto;
+	width: 90%;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+div.category {
+	width: 100%;
+	margin: 1rem 0;
+	padding: 1rem;
+	border: 1px solid black;
+	background-color: hsl(270, 11%, 93%);
+}
+
+h2 {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/* -----------------color category box----------------- */
+
+.colors {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.colors--blue,
+.colors--pink,
+.colors--mint_green,
+.colors--beige {
+	width: 300px;
+	margin: 0.5rem;
+	font-weight: bold;
+	color: white;
+}
+
+.colors--blue {
+	background-color: #2d5dcc;
+}
+
+.colors--pink {
+	background-color: #d957d9;
+}
+
+.colors--mint_green {
+	background-color: #4fe0b0;
+}
+
+.colors--beige {
+	background-color: #efd9ca;
+}
+
+.colors p {
+	text-align: center;
+	margin: 1.5rem 0;
+}
+
+/* -----------------fonts category box----------------- */
+
+.fonts {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.fonts div {
+	margin: 0.5rem;
+}
+
+.fonts h3 {
+	text-decoration: underline;
+	margin: 0.5rem 0;
+}
+
+.fonts p {
+	margin-bottom: 0.5rem;
+	font-size: 1.25rem;
+}
+
+.fonts--one {
+	font-family: "Source Code Pro", monospace;
+}
+
+.fonts--two {
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.fonts--three {
+	font-family: "Poppins", sans-serif;
+}
+
+/* -----------------text styles category box----------------- */
+
+.text_styles {
+	margin: 0.5rem;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.text_styles h3 {
+	margin: 1rem 0;
+}
+
+.text_styles ul {
+	padding-left: 2rem;
+	font-size: 1.25rem;
+}
+
+.text_styles li {
+	line-height: 1.75rem;
+}
+
+.text_styles--one {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.text_styles--two {
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.text_styles--three {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
